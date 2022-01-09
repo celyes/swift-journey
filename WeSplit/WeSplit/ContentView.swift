@@ -48,6 +48,7 @@ struct ContentView: View {
                 
                 Section {
                     Text(total, format: .currency(code: Locale.current.currencyCode ?? "USD"))
+                        .foregroundColor(tipPercentage <= 5 ? .black : .blue)
                 }
                 .navigationTitle("WeSplit")
                 .toolbar {

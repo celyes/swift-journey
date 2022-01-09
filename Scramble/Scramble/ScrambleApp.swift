@@ -1,18 +1,17 @@
 //
-//  GuessFlagApp.swift
-//  GuessFlag
+//  ScrambleApp.swift
+//  Scramble
 //
-//  Created by Ilyes on 26/11/2021.
+//  Created by Ilyes on 24/12/2021.
 //
 
 import SwiftUI
 
 @main
-struct GuessFlagApp: App {
+struct ScrambleApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
         }
     }
 }
-

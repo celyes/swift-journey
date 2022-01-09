@@ -1,18 +1,17 @@
 //
-//  GuessFlagApp.swift
-//  GuessFlag
+//  AnimationsApp.swift
+//  Animations
 //
-//  Created by Ilyes on 26/11/2021.
+//  Created by Ilyes on 3/1/2022.
 //
 
 import SwiftUI
 
 @main
-struct GuessFlagApp: App {
+struct AnimationsApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
         }
     }
 }
-

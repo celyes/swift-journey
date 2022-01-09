@@ -21,7 +21,6 @@ struct ContentView: View {
                 .ignoresSafeArea()
             
             VStack {
-                
                 Spacer()
                 Text("Guess The Flag")
                     .foregroundColor(.white)
@@ -40,10 +39,7 @@ struct ContentView: View {
                         Button {
                             flagTapped(number)
                         } label: {
-                            Image(countries[number])
-                                .renderingMode(.original)
-                                .clipShape(Capsule())
-                                .shadow(radius: 5)
+                            FlagImage(link: countries[number])
                         }
                     }
                 }
@@ -80,6 +76,28 @@ struct ContentView: View {
     func askQuestion() {
         countries.shuffle()
         correctAnswer = Int.random(in: 0...2)
+    }
+}
+
+struct LargeBlueTitle: ViewModifier {
+    func body(content: Content) -> some View {
+        content
+            .font(.largeTitle)
+            .foregroundColor(.blue)
+    }
+}
+extension View {
+    func largeBlueTitle() -> some View {
+        modifier(LargeBlueTitle())
+    }
+}
+struct FlagImage: View {
+    let link: String
+    var body: some View {
+        Image(link)
+            .renderingMode(.original)
+            .clipShape(Capsule())
+            .shadow(radius: 5)
     }
 }
 

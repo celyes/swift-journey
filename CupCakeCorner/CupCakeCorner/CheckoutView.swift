@@ -11,6 +11,7 @@ struct CheckoutView: View {
     
     @State var confirmationMessage = ""
     @State var showingConfirmation = false
+    @State var showingError = false
     @ObservedObject var order: Order
     
     var body: some View {
@@ -25,7 +26,7 @@ struct CheckoutView: View {
                 }
                 .frame(height: 233)
                 
-                Text("Your total is \(order.cost, format: .currency(code: "USD"))")
+                Text("Your total is \(order.details.cost, format: .currency(code: "USD"))")
                     .font(.title)
                 
                 Button("Place Order") {
@@ -43,10 +44,14 @@ struct CheckoutView: View {
         } message: {
             Text(confirmationMessage)
         }
+        .alert("Error!", isPresented: $showingError) { } message: {
+            Text("Cannot place order")
+        }
     }
     
     func placeOrder() async {
-        guard let encoded = try? JSONEncoder().encode(order) else {
+        debugPrint(order.details)
+        guard let encoded = try? JSONEncoder().encode(order.details) else {
             print("failed to encode order")
             return
         }
@@ -54,17 +59,19 @@ struct CheckoutView: View {
         let url = URL(string: "https://reqres.in/api/cupcakes")!
         var request = URLRequest(url: url)
         request.setValue("application/json", forHTTPHeaderField: "Content-Type")
-        request.httpMethod = "POST"
+        request.httpMethod = "POSTi"
         
         do {
             let (data, _) = try await URLSession.shared.upload(for: request, from: encoded)
-            
-            let decodedOrder = try JSONDecoder().decode(Order.self, from: data)
-            confirmationMessage = "Your order for \(decodedOrder.quantity)X\(Order.types[decodedOrder.type].lowercased()) has been placed"
+            print("request made")
+            debugPrint(data)
+            let decodedOrder = try JSONDecoder().decode(OrderStruct.self, from: data)
+            debugPrint(decodedOrder)
+            confirmationMessage = "Your order for \(decodedOrder.quantity)X\(OrderStruct.types[decodedOrder.type].lowercased()) has been placed"
             
             showingConfirmation = true
         } catch {
-            print("Checkout failed")
+            showingError = true
         }
     }
 }

@@ -11,13 +11,14 @@ struct DetailsView: View {
     
     @ObservedObject var order: Order
     
+    
     var body: some View {
         Form {
             Section {
-                TextField("Name", text: $order.name)
-                TextField("Address", text: $order.address)
-                TextField("City", text: $order.city)
-                TextField("ZIP", text: $order.zip)
+                TextField("Name", text: $order.details.name)
+                TextField("Address", text: $order.details.address)
+                TextField("City", text: $order.details.city)
+                TextField("ZIP", text: $order.details.zip)
             }
             
             Section {
@@ -27,7 +28,7 @@ struct DetailsView: View {
                     Text("Checkout")
                 }
             }
-            .disabled(order.isOrderValid == false)
+            .disabled(order.details.isOrderValid == false)
         }
     }
 }

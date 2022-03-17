@@ -7,32 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		633E49C127D5134E0045B97A /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 633E49BF27D5134E0045B97A /* DataModel.xcdatamodeld */; };
-		633E49C427D513BC0045B97A /* Singer+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633E49C227D513BC0045B97A /* Singer+CoreDataClass.swift */; };
-		633E49C527D513BC0045B97A /* Singer+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633E49C327D513BC0045B97A /* Singer+CoreDataProperties.swift */; };
-		633F47F327D4FFFA007D9AAC /* FilteredList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633F47F227D4FFFA007D9AAC /* FilteredList.swift */; };
-		638EB3DC27C00CFF003C86FF /* CoreDataProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638EB3DB27C00CFF003C86FF /* CoreDataProjectApp.swift */; };
-		638EB3DE27C00CFF003C86FF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638EB3DD27C00CFF003C86FF /* ContentView.swift */; };
-		638EB3E027C00D00003C86FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 638EB3DF27C00D00003C86FF /* Assets.xcassets */; };
-		638EB3E327C00D00003C86FF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 638EB3E227C00D00003C86FF /* Preview Assets.xcassets */; };
-		638EB3ED27C00D18003C86FF /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638EB3EC27C00D18003C86FF /* DataController.swift */; };
+		63E60D6B27D6B12400D00E60 /* InstafilterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E60D6A27D6B12400D00E60 /* InstafilterApp.swift */; };
+		63E60D6D27D6B12400D00E60 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E60D6C27D6B12400D00E60 /* ContentView.swift */; };
+		63E60D6F27D6B12500D00E60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63E60D6E27D6B12500D00E60 /* Assets.xcassets */; };
+		63E60D7227D6B12500D00E60 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63E60D7127D6B12500D00E60 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		633E49C027D5134E0045B97A /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
-		633E49C227D513BC0045B97A /* Singer+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Singer+CoreDataClass.swift"; sourceTree = "<group>"; };
-		633E49C327D513BC0045B97A /* Singer+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Singer+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		633F47F227D4FFFA007D9AAC /* FilteredList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilteredList.swift; sourceTree = "<group>"; };
-		638EB3D827C00CFF003C86FF /* CoreDataProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		638EB3DB27C00CFF003C86FF /* CoreDataProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataProjectApp.swift; sourceTree = "<group>"; };
-		638EB3DD27C00CFF003C86FF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		638EB3DF27C00D00003C86FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		638EB3E227C00D00003C86FF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		638EB3EC27C00D18003C86FF /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		63E60D6727D6B12400D00E60 /* Instafilter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instafilter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63E60D6A27D6B12400D00E60 /* InstafilterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstafilterApp.swift; sourceTree = "<group>"; };
+		63E60D6C27D6B12400D00E60 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		63E60D6E27D6B12500D00E60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63E60D7127D6B12500D00E60 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		638EB3D527C00CFF003C86FF /* Frameworks */ = {
+		63E60D6427D6B12400D00E60 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,42 +32,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		638EB3CF27C00CFF003C86FF = {
+		63E60D5E27D6B12400D00E60 = {
 			isa = PBXGroup;
 			children = (
-				633E49C227D513BC0045B97A /* Singer+CoreDataClass.swift */,
-				633E49C327D513BC0045B97A /* Singer+CoreDataProperties.swift */,
-				638EB3DA27C00CFF003C86FF /* CoreDataProject */,
-				638EB3D927C00CFF003C86FF /* Products */,
+				63E60D6927D6B12400D00E60 /* Instafilter */,
+				63E60D6827D6B12400D00E60 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		638EB3D927C00CFF003C86FF /* Products */ = {
+		63E60D6827D6B12400D00E60 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				638EB3D827C00CFF003C86FF /* CoreDataProject.app */,
+				63E60D6727D6B12400D00E60 /* Instafilter.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		638EB3DA27C00CFF003C86FF /* CoreDataProject */ = {
+		63E60D6927D6B12400D00E60 /* Instafilter */ = {
 			isa = PBXGroup;
 			children = (
-				638EB3DB27C00CFF003C86FF /* CoreDataProjectApp.swift */,
-				638EB3DD27C00CFF003C86FF /* ContentView.swift */,
-				633F47F227D4FFFA007D9AAC /* FilteredList.swift */,
-				638EB3EC27C00D18003C86FF /* DataController.swift */,
-				633E49BF27D5134E0045B97A /* DataModel.xcdatamodeld */,
-				638EB3DF27C00D00003C86FF /* Assets.xcassets */,
-				638EB3E127C00D00003C86FF /* Preview Content */,
+				63E60D6A27D6B12400D00E60 /* InstafilterApp.swift */,
+				63E60D6C27D6B12400D00E60 /* ContentView.swift */,
+				63E60D6E27D6B12500D00E60 /* Assets.xcassets */,
+				63E60D7027D6B12500D00E60 /* Preview Content */,
 			);
-			path = CoreDataProject;
+			path = Instafilter;
 			sourceTree = "<group>";
 		};
-		638EB3E127C00D00003C86FF /* Preview Content */ = {
+		63E60D7027D6B12500D00E60 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				638EB3E227C00D00003C86FF /* Preview Assets.xcassets */,
+				63E60D7127D6B12500D00E60 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -85,39 +70,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		638EB3D727C00CFF003C86FF /* CoreDataProject */ = {
+		63E60D6627D6B12400D00E60 /* Instafilter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 638EB3E627C00D00003C86FF /* Build configuration list for PBXNativeTarget "CoreDataProject" */;
+			buildConfigurationList = 63E60D7527D6B12500D00E60 /* Build configuration list for PBXNativeTarget "Instafilter" */;
 			buildPhases = (
-				638EB3D427C00CFF003C86FF /* Sources */,
-				638EB3D527C00CFF003C86FF /* Frameworks */,
-				638EB3D627C00CFF003C86FF /* Resources */,
+				63E60D6327D6B12400D00E60 /* Sources */,
+				63E60D6427D6B12400D00E60 /* Frameworks */,
+				63E60D6527D6B12400D00E60 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = CoreDataProject;
-			productName = CoreDataProject;
-			productReference = 638EB3D827C00CFF003C86FF /* CoreDataProject.app */;
+			name = Instafilter;
+			productName = Instafilter;
+			productReference = 63E60D6727D6B12400D00E60 /* Instafilter.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		638EB3D027C00CFF003C86FF /* Project object */ = {
+		63E60D5F27D6B12400D00E60 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
-					638EB3D727C00CFF003C86FF = {
+					63E60D6627D6B12400D00E60 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
 				};
 			};
-			buildConfigurationList = 638EB3D327C00CFF003C86FF /* Build configuration list for PBXProject "CoreDataProject" */;
+			buildConfigurationList = 63E60D6227D6B12400D00E60 /* Build configuration list for PBXProject "Instafilter" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -125,47 +110,42 @@
 				en,
 				Base,
 			);
-			mainGroup = 638EB3CF27C00CFF003C86FF;
-			productRefGroup = 638EB3D927C00CFF003C86FF /* Products */;
+			mainGroup = 63E60D5E27D6B12400D00E60;
+			productRefGroup = 63E60D6827D6B12400D00E60 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				638EB3D727C00CFF003C86FF /* CoreDataProject */,
+				63E60D6627D6B12400D00E60 /* Instafilter */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		638EB3D627C00CFF003C86FF /* Resources */ = {
+		63E60D6527D6B12400D00E60 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				638EB3E327C00D00003C86FF /* Preview Assets.xcassets in Resources */,
-				638EB3E027C00D00003C86FF /* Assets.xcassets in Resources */,
+				63E60D7227D6B12500D00E60 /* Preview Assets.xcassets in Resources */,
+				63E60D6F27D6B12500D00E60 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		638EB3D427C00CFF003C86FF /* Sources */ = {
+		63E60D6327D6B12400D00E60 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				633E49C527D513BC0045B97A /* Singer+CoreDataProperties.swift in Sources */,
-				638EB3DE27C00CFF003C86FF /* ContentView.swift in Sources */,
-				638EB3ED27C00D18003C86FF /* DataController.swift in Sources */,
-				633E49C127D5134E0045B97A /* DataModel.xcdatamodeld in Sources */,
-				638EB3DC27C00CFF003C86FF /* CoreDataProjectApp.swift in Sources */,
-				633F47F327D4FFFA007D9AAC /* FilteredList.swift in Sources */,
-				633E49C427D513BC0045B97A /* Singer+CoreDataClass.swift in Sources */,
+				63E60D6D27D6B12400D00E60 /* ContentView.swift in Sources */,
+				63E60D6B27D6B12400D00E60 /* InstafilterApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		638EB3E427C00D00003C86FF /* Debug */ = {
+		63E60D7327D6B12500D00E60 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -226,7 +206,7 @@
 			};
 			name = Debug;
 		};
-		638EB3E527C00D00003C86FF /* Release */ = {
+		63E60D7427D6B12500D00E60 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -281,14 +261,14 @@
 			};
 			name = Release;
 		};
-		638EB3E727C00D00003C86FF /* Debug */ = {
+		63E60D7627D6B12500D00E60 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CoreDataProject/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Instafilter/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -301,7 +281,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Celyes.CoreDataProject;
+				PRODUCT_BUNDLE_IDENTIFIER = Celyes.Instafilter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -309,14 +289,14 @@
 			};
 			name = Debug;
 		};
-		638EB3E827C00D00003C86FF /* Release */ = {
+		63E60D7727D6B12500D00E60 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CoreDataProject/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Instafilter/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -329,7 +309,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Celyes.CoreDataProject;
+				PRODUCT_BUNDLE_IDENTIFIER = Celyes.Instafilter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -340,38 +320,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		638EB3D327C00CFF003C86FF /* Build configuration list for PBXProject "CoreDataProject" */ = {
+		63E60D6227D6B12400D00E60 /* Build configuration list for PBXProject "Instafilter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				638EB3E427C00D00003C86FF /* Debug */,
-				638EB3E527C00D00003C86FF /* Release */,
+				63E60D7327D6B12500D00E60 /* Debug */,
+				63E60D7427D6B12500D00E60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		638EB3E627C00D00003C86FF /* Build configuration list for PBXNativeTarget "CoreDataProject" */ = {
+		63E60D7527D6B12500D00E60 /* Build configuration list for PBXNativeTarget "Instafilter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				638EB3E727C00D00003C86FF /* Debug */,
-				638EB3E827C00D00003C86FF /* Release */,
+				63E60D7627D6B12500D00E60 /* Debug */,
+				63E60D7727D6B12500D00E60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		633E49BF27D5134E0045B97A /* DataModel.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				633E49C027D5134E0045B97A /* DataModel.xcdatamodel */,
-			);
-			currentVersion = 633E49C027D5134E0045B97A /* DataModel.xcdatamodel */;
-			path = DataModel.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
-	rootObject = 638EB3D027C00CFF003C86FF /* Project object */;
+	rootObject = 63E60D5F27D6B12400D00E60 /* Project object */;
 }
